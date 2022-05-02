@@ -1,0 +1,4 @@
+sudo su
+visudo (do below changes)
+# See sudoers(5) for more information on "#include" directives:
+jenkins ALL=(ALL) NOPASSWD: ALL
